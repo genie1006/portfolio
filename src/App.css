@@ -4,9 +4,21 @@
   box-sizing: border-box;
 }
 
-img{
-  display: block;
-  width: 100%;
+a{
+    text-decoration: none;
+}
+img, video{
+    width: 100%;
+    display: block;
+}
+dl,ul,li,ol,menu{
+    list-style: none;
+}
+em,address{
+    font-style: normal;
+}
+button{
+    border: none;
 }
 
 h1{
@@ -21,6 +33,14 @@ h3{
   font-weight: 600;
   font-size: 2rem;
 }
+h4{
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+h5{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
 
 body{}
 .inner{
@@ -33,3 +53,11 @@ body{}
 /* font-family */
 .ko{font-family: var(--font_Ko);}
 .en{font-family: var(--font_En);}
+
+.clearfix::before, .clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+

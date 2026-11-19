@@ -7,7 +7,7 @@ import { Footer } from './assets/conponents/Footer'
 function App() {
   return (
     <>
-      <Header />
+      <Header /> 
 
       <Home />
 
