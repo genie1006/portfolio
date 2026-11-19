@@ -1,0 +1,33 @@
+:root {
+  --text: #eb5027;
+  --text_bl: #1d1d1d;
+  --bg: #f4f1e0;
+  --bg_b: #3077b5;
+  --bg_y: #f6cd45;
+  --bg_g: #527e46;
+  --bg_p: #c086e8;
+
+  --font_En: "Bricolage Grotesque", sans-serif;
+  --font_Ko: 'Paperozi';
+
+  font: 20px var(--font_Ko);
+  color: var(--text);
+  background: var(--bg);
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
+  @media (max-width: 480px) {
+    font-size: 10px;
+  }
+  @media (max-width: 320px) {
+    font-size: 8px;
+  }
+}
+
