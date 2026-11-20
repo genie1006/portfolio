@@ -8,7 +8,7 @@ import { Footer } from './assets/conponents/Footer'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio/">
       <Header />
 
       <Routes>
