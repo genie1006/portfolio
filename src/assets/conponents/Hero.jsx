@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className="inner">
         <div className="top">
           <div className="image">
-            <img src="/img/hero.png" alt="프로필 이미지" />
+            <img src={`${import.meta.env.BASE_URL}img/hero.png`} alt="프로필 이미지" />
           </div>
           <div className="name">
             <h1>김진희</h1>
