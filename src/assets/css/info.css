@@ -1,0 +1,30 @@
+#info{
+  background-color: var(--bg_y);
+  height: 500px;
+  color: var(--text);
+}
+#info .inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cover_letter{}
+.cover_letter button{
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  background-image: url("/img/button.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.cover_letter button h5{
+  color: var(--bg);
+}
