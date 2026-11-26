@@ -1,0 +1,19 @@
+#techstack{
+  color: var(--text);
+  padding: 100px 0;
+}
+
+.tech_list{}
+.tech_list .tech_item{
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--bg_b);
+}
+.tech_list .tech_item:first-child{
+  border-top: 0px;
+}
+.tech_list .tech_item .tech_cate{
+  color: var(--bg_b);
+  padding-bottom: 1.5rem;
+}
+.tech_list .tech_item .tech_skills{}
+

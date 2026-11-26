@@ -53,7 +53,9 @@
 .f_right{
   text-align: center;
 }
-.f_right .f_logo{}
+.f_right .f_logo{
+  color: var(--bg_y);
+}
 .f_right .f_copy{
   font-size: 0.5rem;
   margin-top: 1rem;
