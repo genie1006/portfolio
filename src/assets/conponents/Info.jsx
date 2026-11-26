@@ -6,7 +6,7 @@ export const Info = () => {
     <section id="info">
       <div className="inner">
         <div className="about">
-          <h3 className="en">About Me</h3>
+          <h4 className="en">About Me</h4>
           <h2 className="ko">김진희</h2>
           <h4 className="en">WEB PUBLISHER & FRONT-END DEVELOPER</h4>
           <h5 className="ko">

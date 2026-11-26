@@ -12,7 +12,10 @@
   width: 800px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1rem;
+}
+.about>h4{
+  text-transform: uppercase;
 }
 .cover_letter{}
 .cover_letter button{

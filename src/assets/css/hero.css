@@ -32,6 +32,9 @@
   justify-content: end;
   align-items: end;
 }
+.top .name h1{
+  text-align: right;
+}
 .bottom{
   padding-top: 100px;
 }
